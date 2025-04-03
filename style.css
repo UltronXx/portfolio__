@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: lightblue;
+    background-color: #FBFBFB;
     /*height: 10vh;*/
     /*width: 80%;*/
     margin: auto;
@@ -18,12 +18,13 @@ header {
 }
 
 .logo {
-    width: 40px;
+    width: 30px;
 }
 
 .logo-name {
     padding-left: 10px;
     font-weight: 600;
+    color: #161617;
 }
 
 .header-container {
@@ -39,11 +40,13 @@ header {
     display: flex;
     padding-left: 50px;
     list-style: none;
-    font-size: 1em;
+    font-size: 0.9em;
+    font-weight: 400;
 }
 
 .nav-link {
     text-decoration: none;
+    color: #161617;
     padding: 20px;
 }
 
@@ -52,18 +55,18 @@ main {
 }
 
 .first-section {
-    background-color: lightblue;
+    background-color: #F5F5F7;
     height: 50vh;
-    width: 70%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin: auto;
+    border-radius: 22px;
 }
 
 .section-content {
-    background-color: blue;
     margin: 30px;
 }
 
